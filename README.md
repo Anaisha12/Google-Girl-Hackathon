@@ -30,6 +30,6 @@ total data transferred = number of reads and writes * 32
 bandwidth = total data transferred / total latency
 
 # Complexity Analysis
-Time complexity = O(N) where N=number of rows in the trace table
+Time complexity: O(N) where N=number of rows in the trace table
 
-Space complexity = O(M) where M=number of unique data addresses being accessed via read and write operations
+Space complexity: O(M) where M=number of unique data addresses being accessed via read and write operations from both IO and CPU units
