@@ -28,3 +28,7 @@ average latency for any operation = total latency / number of reads and writes
 total data transferred = number of reads and writes * 32
 
 bandwidth = total data transferred / total latency
+
+# Complexity Analysis
+Time complexity = O(N) where N=number of rows in the trace table
+Space complexity = O(M) where M=number of unique data addresses being accessed via read/write operations
