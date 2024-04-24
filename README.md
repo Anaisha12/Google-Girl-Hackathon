@@ -23,9 +23,9 @@ average latency for a write operation = total time taken to serve all the write 
 
 total latency = total time taken for all reads and writes
 
-average latency for any operation = total latency / number of reads and writes
+average latency for any operation = total latency /total number of reads and writes
 
-total data transferred = number of reads and writes * 32
+total data transferred = total number of reads and writes * 32
 
 bandwidth = total data transferred / total latency
 
