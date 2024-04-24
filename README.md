@@ -12,3 +12,6 @@ Steps:
    
 Once the data is uploaded, the code is ready to be run. There are two code blocks. Both can be run using:
 Runtime->Run all
+
+# Details on the data
+The trace table used in this code is a demo dataset generated with the help of some AI tools and with some manual alterations. This data mimics the simulator data and has been generated only to test the latency and bandwidth calculation code. In order to implement the RL algorithm in the second part of the problem statement, we will require the actual simulator data with more data points.
