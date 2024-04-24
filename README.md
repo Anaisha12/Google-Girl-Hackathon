@@ -17,9 +17,9 @@ Runtime->Run all
 The trace table used in this code is a demo dataset generated with the help of some AI tools and with some manual alterations. This data mimics the simulator data and has been generated only to test the latency and bandwidth calculation code. In order to implement the RL algorithm in the second part of the problem statement, we will require the actual simulator data with more data points.
 
 # Formulas used for latency and bandwidth calculation
-average latency for a read operation = tatal time taken to serve all the read operations / number of read operations
+average latency for a read operation = total time taken to serve all the read operations / number of read operations
 
-average latency for a write operation = tatal time taken to serve all the write operations / number of write operations
+average latency for a write operation = total time taken to serve all the write operations / number of write operations
 
 total latency = total time taken for all reads and writes
 
@@ -28,6 +28,9 @@ average latency for any operation = total latency / number of reads and writes
 total data transferred = number of reads and writes * 32
 
 bandwidth = total data transferred / total latency
+
+# Approach
+Latency for each read operation is calculated from the trace table. But there is no similar logic given for calculaion of write latencies, so I have considered a constant write latency for all the write operations.
 
 # Complexity Analysis
 Time complexity: O(N) where N=number of rows in the trace table
