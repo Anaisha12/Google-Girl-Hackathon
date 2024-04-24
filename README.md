@@ -8,7 +8,7 @@ Steps:
    Upload->Browse-> select "Google_Girl_Hackathon.ipynb"
    
 5. Once the uploading is completed, upload the data file.
-   Under 'Files' ribbon->'Upload to session storage'->'data.xlsx'->open
+   Under 'Files' ribbon->'Upload to session storage'->'data.xlsx'->open->ignore the warning if any
    
 Once the data is uploaded, the code is ready to be run. There are two code blocks. Both can be run using:
 Runtime->Run all
